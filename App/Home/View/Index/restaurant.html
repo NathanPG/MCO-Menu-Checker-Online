@@ -208,7 +208,7 @@
 							        </button>
 							      </div>
 							      <div class="modal-body">
-                      <img width="100%" height="100%" src="__PUBLIC__/assets/Menu/cms/${i+1}.jpg">
+                      <img width="100%" height="100%" src="__PUBLIC__/assets/Menu/cms/${item['name'].replaceAll(" ","").replaceAll("&","").replaceAll(",","")}.jpg">
 							      </div>
 							      <div class="modal-footer">
 							        <button type="button" class="btn btn-primary">Write Comment for ${item['name']}</button>
